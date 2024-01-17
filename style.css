@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    background-color: white;
+    overflow-x: hidden;
+}
+nav {
+    background-color:rgb(0,0,0,0); /* Grey background with transparency */
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Make sure it's above other elements */
+}
+nav img{
+    float: right;
+    margin-right: 30px;
+    width: 32px;
+    height:40px;
+}
+
+nav ul {
+    float: left;
+    margin-left: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: grey; /* Text color */
+    font-weight: bold;
+    font-size: 18px;
+}
+.img-cont-one{
+    position: relative;
+    width:100%;
+}
+.img-cont-one h1{
+    color: rgb(202, 201, 201);
+    font-weight: 50;
+    position: absolute;
+    font-size: 9rem;
+    bottom:22rem;
+    left:12rem;
+}
+.img-cont-one .a{
+    color: rgb(202, 201, 201);
+    position: absolute;
+    font-size: 9rem;
+    bottom:13rem;
+    left:2rem;
+}
+.img-cont-one .b{
+    color: rgb(202, 201, 201);
+    position: absolute;
+    font-size: 9rem;
+    bottom:4rem;
+    left:6rem;
+}
+.img-cont-one .card-one{
+    position: absolute;
+    float: right;
+    bottom:32rem;
+    right:5rem;
+    display: block;
+    width:14rem;
+    height: 40px;
+    color: grey;
+}
+.img-cont-one .card-one button{
+    background-color: rgb(253, 251, 251);
+    border-radius: 8rem;
+    padding: 15px;
+    width:13rem;
+    border: 1px solid #a3a3a3;
+    box-shadow: 0px 2px 6px #747474;
+    transition: background-color 0.3s ease;
+}
+.img-cont-two{
+    background-color: rgb(233, 233, 233);
+}
+.img-cont-two img{
+    position: relative;
+    width:25rem;
+    height:30rem;
+    margin-top: 10rem;
+    margin-left: 7rem;
+    margin-bottom: 10rem;
+}
+.img-cont-two h1{
+    position: absolute;
+    width:21rem;
+    top:58rem;
+    left:29rem;
+    font-size: 3rem;
+    color: rgb(182, 182, 182);
+}
+.img-cont-two p{
+    position: absolute;
+    width:21rem;
+    top:72rem;
+    left:35rem;
+}
+.img-cont-two button{
+    position: absolute;
+    border-radius: 50%;
+    top:80rem;
+    left:36rem;
+    padding: 2rem;
+    border: 1px solid #a3a3a3;
+    box-shadow: 0px 2px 6px #747474;
+    transition: background-color 0.3s ease;
+}
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
